@@ -1,0 +1,9 @@
+CREATE DATABASE Shopping;
+
+USE Shopping;
+CREATE TABLE Shop (
+    Shop_ID INT PRIMARY KEY,
+    Shop_Name VARCHAR(50) NOT NULL,
+    Product_Name VARCHAR(50) NOT NULL,
+    Price DECIMAL(10,2) DEFAULT 10.00
+);
